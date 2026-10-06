@@ -1,0 +1,15 @@
+{
+  "passed": [
+    "Edit opens a dedicated question route with no bank or bottom navigation",
+    "Matching fields populated correctly on mobile",
+    "Cancel preserves bank search filters",
+    "Add opens its own route",
+    "Invalid empty question stays in editor with validation error",
+    "Save adds question and returns to bank",
+    "Edit updates existing question without duplicate",
+    "Refresh restores saved question on edit route",
+    "Browser Back and Forward navigate bank and editor"
+  ],
+  "test_origin": "http://127.0.0.1:5191",
+  "user_bank_modified": false
+}

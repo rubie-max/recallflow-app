@@ -1,0 +1,88 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "types": [
+    {
+      "header": "What shape is shown in the image?",
+      "overflow": false,
+      "width": 390,
+      "type": "short_answer",
+      "correct": true
+    },
+    {
+      "header": "The Earth takes about ___ days to orbit the Sun.",
+      "overflow": false,
+      "width": 390,
+      "type": "fill_blank",
+      "correct": true
+    },
+    {
+      "header": "Which planet is known as the Red Planet?",
+      "overflow": false,
+      "width": 390,
+      "type": "single_choice",
+      "correct": true
+    },
+    {
+      "overflow": false,
+      "width": 390,
+      "type": "flashcard",
+      "correct": true
+    },
+    {
+      "overflow": false,
+      "width": 390,
+      "type": "true_false",
+      "correct": true
+    },
+    {
+      "overflow": false,
+      "width": 390,
+      "type": "multi_select",
+      "correct": true
+    },
+    {
+      "overflow": false,
+      "width": 390,
+      "type": "numeric",
+      "correct": true
+    },
+    {
+      "overflow": false,
+      "width": 390,
+      "type": "matching",
+      "correct": true
+    },
+    {
+      "overflow": false,
+      "width": 390,
+      "type": "09 \u00b7 Ordering",
+      "correct": true
+    },
+    {
+      "overflow": false,
+      "width": 390,
+      "type": "10 \u00b7 Multi-blank cloze",
+      "correct": true
+    },
+    {
+      "overflow": false,
+      "width": 390,
+      "type": "11 \u00b7 Image answer choices",
+      "correct": true
+    }
+  ],
+  "reportAccuracy": 100,
+  "testOrigin": "http://127.0.0.1:5175/",
+  "additionalChecks": {
+    "lightThemeWidths": [
+      320,
+      430
+    ],
+    "wrongFeedbackAboveAction": true,
+    "fixedActionHeight": 52,
+    "learningRegressionTests": "passed"
+  }
+}

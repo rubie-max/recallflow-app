@@ -1,0 +1,12 @@
+{
+  "passed": [
+    "Mobile preview-first controls replace visible native file controls",
+    "Choose opens picker and previews local image",
+    "Change replaces preview",
+    "Remove restores empty preview",
+    "Reselecting the same file works",
+    "Question image survives save and reopen",
+    "Answer-choice image survives save and reopen"
+  ],
+  "user_study_data_modified": false
+}
