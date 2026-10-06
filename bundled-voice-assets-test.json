@@ -1,0 +1,27 @@
+[
+  {
+    "voice": "af_heart",
+    "duration": 5.0,
+    "rms": 0.0723586014158543
+  },
+  {
+    "voice": "af_bella",
+    "duration": 5.4,
+    "rms": 0.07977639953428854
+  },
+  {
+    "voice": "am_michael",
+    "duration": 5.6,
+    "rms": 0.06318766092427504
+  },
+  {
+    "voice": "am_fenrir",
+    "duration": 5.05,
+    "rms": 0.10628436147784764
+  },
+  {
+    "voice": "bf_emma",
+    "duration": 5.025,
+    "rms": 0.09195796139376261
+  }
+]

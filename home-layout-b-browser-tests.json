@@ -1,0 +1,9 @@
+{
+  "smallPhone": {
+    "scrollWidth": 320,
+    "width": 320
+  },
+  "greeting": 1,
+  "profile": 1,
+  "quizControls": 1
+}

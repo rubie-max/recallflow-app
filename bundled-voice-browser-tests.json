@@ -1,0 +1,56 @@
+{
+  "previews": [
+    {
+      "currentTime": 5,
+      "duration": 5,
+      "ended": true,
+      "paused": true,
+      "src": "http://127.0.0.1:5190/public/voice-previews/af_heart.wav",
+      "voice": "af_heart"
+    },
+    {
+      "currentTime": 0.276072,
+      "duration": 5.4,
+      "paused": false,
+      "src": "http://127.0.0.1:5190/public/voice-previews/af_bella.wav",
+      "voice": "af_bella"
+    },
+    {
+      "currentTime": 0.222191,
+      "duration": 5.6,
+      "paused": false,
+      "src": "http://127.0.0.1:5190/public/voice-previews/am_michael.wav",
+      "voice": "am_michael"
+    },
+    {
+      "currentTime": 0.222748,
+      "duration": 5.05,
+      "paused": false,
+      "src": "http://127.0.0.1:5190/public/voice-previews/am_fenrir.wav",
+      "voice": "am_fenrir"
+    },
+    {
+      "currentTime": 0.214406,
+      "duration": 5.025,
+      "paused": false,
+      "src": "http://127.0.0.1:5190/public/voice-previews/bf_emma.wav",
+      "voice": "bf_emma"
+    },
+    {
+      "currentTime": 0.248485,
+      "paused": false,
+      "speed": 1.2,
+      "src": "http://127.0.0.1:5190/public/voice-previews/bf_emma.wav"
+    },
+    {
+      "afterReload": true,
+      "currentTime": 0,
+      "duration": 5,
+      "paused": false,
+      "src": "http://127.0.0.1:5190/public/voice-previews/af_heart.wav"
+    }
+  ],
+  "generatedCacheCount": 0,
+  "generatedAudioEvidencePanels": 0,
+  "defaultVoice": "af_heart"
+}

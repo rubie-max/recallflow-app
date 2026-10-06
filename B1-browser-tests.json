@@ -1,0 +1,147 @@
+{
+  "testedAt": "2026-10-04T05:43:51.219Z",
+  "desktopSplit": true,
+  "mobileStacked": true,
+  "mobileWidth": 390,
+  "noHorizontalOverflow": true,
+  "selectionDeferred": true,
+  "choiceCanChange": true,
+  "typedAndFillBlank": true,
+  "flashcardRevealAndSelfGrade": true,
+  "trueFalse": true,
+  "multiSelect": true,
+  "numericTolerance": true,
+  "report": {
+    "id": "report_1791092587693",
+    "mode": "all",
+    "date": "2026-10-04T05:43:17.819Z",
+    "duration_seconds": 62,
+    "total": 8,
+    "correct": 7,
+    "accuracy": 88,
+    "questions": [
+      {
+        "knowledge_id": "demo_short",
+        "subject": "Demo",
+        "topic": "Type Answer",
+        "type": "short_answer",
+        "prompt": "What is the capital of Japan?",
+        "correct_answer": "Tokyo",
+        "user_answer": "Tokyo",
+        "correct": true,
+        "response_time_seconds": 12
+      },
+      {
+        "knowledge_id": "demo_fill",
+        "subject": "Demo",
+        "topic": "Fill in the Blank",
+        "type": "fill_blank",
+        "prompt": "World War II ended in _____.",
+        "correct_answer": "1945",
+        "user_answer": "1945",
+        "correct": true,
+        "response_time_seconds": 1
+      },
+      {
+        "knowledge_id": "demo_choice",
+        "subject": "Demo",
+        "topic": "Multiple Choice",
+        "type": "single_choice",
+        "prompt": "Which planet is the largest in our Solar System?",
+        "correct_answer": "Jupiter",
+        "user_answer": "Jupiter",
+        "correct": true,
+        "response_time_seconds": 19
+      },
+      {
+        "knowledge_id": "demo_flash",
+        "subject": "Demo",
+        "topic": "Flashcard",
+        "type": "flashcard",
+        "prompt": "Which organelle is often called the powerhouse of the cell?",
+        "correct_answer": "Mitochondrion",
+        "user_answer": "self-marked: knew",
+        "correct": true,
+        "response_time_seconds": 2
+      },
+      {
+        "knowledge_id": "item_1791060760326_0",
+        "subject": "QA",
+        "topic": "Import",
+        "type": "short_answer",
+        "prompt": "What does <b>bold</b> mean?",
+        "correct_answer": "Bold text",
+        "user_answer": "bold",
+        "correct": false,
+        "response_time_seconds": 1
+      },
+      {
+        "knowledge_id": "item_1791092515600_0",
+        "subject": "Layout QA",
+        "topic": "True/False",
+        "type": "true_false",
+        "prompt": "Two plus two equals four.",
+        "correct_answer": "True",
+        "user_answer": "True",
+        "correct": true,
+        "response_time_seconds": 10
+      },
+      {
+        "knowledge_id": "item_1791092515600_1",
+        "subject": "Layout QA",
+        "topic": "Multi-select",
+        "type": "multi_select",
+        "prompt": "Which of these numbers are prime? Select all that apply.",
+        "correct_answer": "2; 3",
+        "user_answer": "2; 3",
+        "selected_answers": [
+          "2",
+          "3"
+        ],
+        "correct": true,
+        "response_time_seconds": 16
+      },
+      {
+        "knowledge_id": "item_1791092515600_2",
+        "subject": "Layout QA",
+        "topic": "Numeric",
+        "type": "numeric",
+        "prompt": "Enter 9.81. Answers within 0.05 are accepted.",
+        "correct_answer": "9.81",
+        "user_answer": "9.83",
+        "correct": true,
+        "response_time_seconds": 1
+      }
+    ]
+  },
+  "audio": {
+    "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+    "voice": "af_heart",
+    "speed": 1,
+    "role": "question",
+    "questionId": "demo_choice",
+    "text": "Which planet is the largest in our Solar System?",
+    "backend": "webgpu",
+    "sampleRate": 24000,
+    "durationSeconds": 3.3,
+    "rms": 0.0652595856133561,
+    "peak": 0.45498302578926086,
+    "generationSeconds": 3.125300000011921,
+    "cacheHit": false,
+    "cacheSource": "generated",
+    "requestMilliseconds": 3299.5,
+    "inferenceCount": 1,
+    "workerLoaded": true,
+    "playback": "Completed",
+    "testedAt": "2026-10-04T05:40:21.085Z",
+    "playingEvent": true,
+    "volume": 1,
+    "muted": false,
+    "playedSeconds": 3.3,
+    "endedEvent": true
+  },
+  "mainDataPreserved": {
+    "questions": 4,
+    "quizCount": 0
+  }
+}

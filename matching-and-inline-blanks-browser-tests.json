@@ -1,0 +1,31 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "matching": {
+    "twoColumns": true,
+    "threeConnectionPaths": true,
+    "oneToOneReassignment": true,
+    "resetMatches": true,
+    "correctGrading": true,
+    "greenConnectionsAfterSubmit": 3
+  },
+  "singleBlank": {
+    "inlineSentence": true,
+    "enterKeySubmission": true,
+    "correctGrading": true
+  },
+  "multiBlank": {
+    "inlineSentence": true,
+    "correctGrading": true,
+    "correctInputsAfterSubmit": 2
+  },
+  "report": {
+    "total": 3,
+    "correct": 3,
+    "accuracy": 100
+  },
+  "horizontalOverflow": false,
+  "testOrigin": "http://127.0.0.1:5176/"
+}
