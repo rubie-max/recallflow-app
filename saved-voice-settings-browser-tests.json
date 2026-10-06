@@ -1,0 +1,12 @@
+{
+  "initialSaved": "Saved: Heart — American Female · 1.0×",
+  "initialDisabled": true,
+  "voiceChangeEnabled": true,
+  "revertingVoiceDisabled": true,
+  "speedChangeEnabled": true,
+  "afterSave": "Saved: Heart — American Female · 1.2×",
+  "afterSaveDisabled": true,
+  "afterReload": "Saved: Heart — American Female · 1.2×",
+  "cancelRestoredVoice": "af_heart",
+  "cancelDisabled": true
+}

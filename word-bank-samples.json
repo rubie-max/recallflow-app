@@ -1,0 +1,38 @@
+[
+  {
+    "subject": "Question type samples",
+    "topic": "12 · Word bank — one blank",
+    "type": "fill_blank_options",
+    "tags": [
+      "ui-samples"
+    ],
+    "prompt": "The capital of France is ___.",
+    "blanks": [
+      "Paris"
+    ],
+    "options": [
+      "Rome",
+      "Paris",
+      "Tokyo"
+    ]
+  },
+  {
+    "subject": "Question type samples",
+    "topic": "13 · Word bank — multiple blanks",
+    "type": "fill_blank_options",
+    "tags": [
+      "ui-samples"
+    ],
+    "prompt": "Water freezes at ___ °C and boils at ___ °C at sea level.",
+    "blanks": [
+      "0",
+      "100"
+    ],
+    "options": [
+      "25",
+      "100",
+      "0",
+      "200"
+    ]
+  }
+]

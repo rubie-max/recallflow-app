@@ -1,0 +1,19 @@
+{
+  "model": "Kokoro-82M-v1.0-ONNX",
+  "voice": "af_heart",
+  "requestedBackend": "wasm",
+  "generatedAt": "2026-10-03T08:12:17.077Z",
+  "playback": "Completed",
+  "backend": "wasm",
+  "sampleRate": 24000,
+  "samples": 145800,
+  "durationSeconds": 6.075,
+  "rms": 0.07081997207005547,
+  "peak": 0.6192675828933716,
+  "generationSeconds": 114.71430000001192,
+  "playedSeconds": 6.075,
+  "playingEvent": true,
+  "volume": 1,
+  "muted": false,
+  "endedEvent": true
+}

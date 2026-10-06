@@ -1,0 +1,19 @@
+{
+  "previousMonth": true,
+  "nextEnabled": true,
+  "futureMonthDisabled": true,
+  "quizBuilderOpened": true,
+  "populated": {
+    "overflow": false,
+    "streak": " Today complete12days in a rowYou showed up today.Your streak is safe for today. Come back tomorrow.",
+    "studiedDays": 4,
+    "todayComplete": true,
+    "todayMarked": 1
+  },
+  "previousStudiedDays": 8,
+  "smallScreen": {
+    "overflow": false,
+    "width": 320
+  },
+  "lightThemeOverflow": false
+}

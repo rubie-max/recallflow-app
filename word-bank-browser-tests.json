@@ -1,0 +1,14 @@
+{
+  "oneAndMultipleBlanks": true,
+  "separateTypeFilter": true,
+  "clearDisablesSubmission": true,
+  "changeAnswers": true,
+  "grading": true,
+  "editorSaved": true,
+  "quiz": {
+    "total": 2,
+    "correct": 2,
+    "accuracy": 100
+  },
+  "phoneOverflow": false
+}

@@ -1,0 +1,13 @@
+{
+  "testedAt": "2026-10-04T05:14:48.748Z",
+  "caseInsensitiveAnswerSearch": true,
+  "searchWhitespaceTrimmed": true,
+  "combinedFiltersAndEmptyState": true,
+  "typeFilter": true,
+  "subjectFilter": true,
+  "resetRestoresFourQuestions": true,
+  "expandAnswer": true,
+  "deleteCancelPreservesQuestion": true,
+  "editLoadsSavedValues": true,
+  "editCancel": true
+}

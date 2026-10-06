@@ -1,0 +1,17 @@
+{
+  "model": "Kokoro-82M-v1.0-ONNX",
+  "voice": "af_heart",
+  "backend": "webgpu",
+  "sampleRate": 24000,
+  "durationSeconds": 2.275,
+  "rms": 0.06611828172630033,
+  "peak": 0.5161219239234924,
+  "generationSeconds": 0.5623000000119209,
+  "playback": "Completed",
+  "testedAt": "2026-10-03T21:10:46.511Z",
+  "playedSeconds": 2.275,
+  "playingEvent": true,
+  "volume": 1,
+  "muted": false,
+  "endedEvent": true
+}

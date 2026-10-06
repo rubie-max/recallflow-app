@@ -1,0 +1,40 @@
+{
+  "viewports": [
+    {
+      "calendarTop": 466.78125,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "calendar": {
+        "bottom": 657.796875,
+        "height": 424,
+        "left": 523.734375,
+        "right": 1004.5,
+        "top": 233.796875,
+        "width": 480.765625,
+        "x": 523.734375,
+        "y": 233.796875
+      },
+      "hero": {
+        "bottom": 415.921875,
+        "height": 182.125,
+        "left": 80.5,
+        "right": 509.734375,
+        "top": 233.796875,
+        "width": 429.234375,
+        "x": 80.5,
+        "y": 233.796875
+      },
+      "mainWidth": 960,
+      "scrollWidth": 1085,
+      "width": 1100
+    }
+  ],
+  "calendarNavigation": true,
+  "quizControlsOpen": true
+}

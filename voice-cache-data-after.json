@@ -1,0 +1,683 @@
+{
+  "app": "RecallFlow",
+  "version": 1,
+  "exportedAt": "2026-10-04T06:12:18.865Z",
+  "questions": [
+    {
+      "id": "demo_short",
+      "subject": "Demo",
+      "topic": "Type Answer",
+      "prompt": "What is the capital of Japan?",
+      "answer": "Tokyo",
+      "type": "short_answer",
+      "interval": 9,
+      "due": "2026-10-13"
+    },
+    {
+      "id": "demo_fill",
+      "subject": "Demo",
+      "topic": "Fill in the Blank",
+      "prompt": "World War II ended in _____.",
+      "answer": "1945",
+      "type": "fill_blank",
+      "interval": 469,
+      "due": "2028-01-16"
+    },
+    {
+      "id": "demo_choice",
+      "subject": "Demo",
+      "topic": "Multiple Choice",
+      "prompt": "Which planet is the largest in our Solar System?",
+      "answer": "Jupiter",
+      "type": "single_choice",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Earth"
+      ],
+      "interval": 9,
+      "due": "2026-10-13"
+    },
+    {
+      "id": "demo_flash",
+      "subject": "Demo",
+      "topic": "Flashcard",
+      "prompt": "Which organelle is often called the powerhouse of the cell?",
+      "answer": "Mitochondrion",
+      "type": "flashcard",
+      "interval": 9,
+      "due": "2026-10-13"
+    },
+    {
+      "id": "item_1791060760326_0",
+      "subject": "QA",
+      "topic": "Import",
+      "prompt": "What does <b>bold</b> mean?",
+      "answer": "Bold text",
+      "type": "short_answer",
+      "interval": 0,
+      "due": "2026-10-04"
+    },
+    {
+      "subject": "Layout QA",
+      "topic": "True/False",
+      "prompt": "Two plus two equals four.",
+      "answer": "True",
+      "type": "true_false",
+      "id": "item_1791092515600_0",
+      "interval": 4,
+      "due": "2026-10-08"
+    },
+    {
+      "subject": "Layout QA",
+      "topic": "Multi-select",
+      "prompt": "Which of these numbers are prime? Select all that apply.",
+      "answer": "2; 3",
+      "correctAnswers": [
+        "2",
+        "3"
+      ],
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "type": "multi_select",
+      "id": "item_1791092515600_1",
+      "interval": 4,
+      "due": "2026-10-08"
+    },
+    {
+      "subject": "Layout QA",
+      "topic": "Numeric",
+      "prompt": "Enter 9.81. Answers within 0.05 are accepted.",
+      "answer": "9.81",
+      "numericTolerance": 0.05,
+      "type": "numeric",
+      "id": "item_1791092515600_2",
+      "interval": 4,
+      "due": "2026-10-08"
+    }
+  ],
+  "reports": [
+    {
+      "id": "report_1791094077507",
+      "mode": "all",
+      "date": "2026-10-04T06:07:57.507Z",
+      "duration_seconds": 108,
+      "total": 8,
+      "correct": 7,
+      "accuracy": 88,
+      "questions": [
+        {
+          "knowledge_id": "demo_short",
+          "subject": "Demo",
+          "topic": "Type Answer",
+          "type": "short_answer",
+          "prompt": "What is the capital of Japan?",
+          "correct_answer": "Tokyo",
+          "user_answer": "Tokyo",
+          "correct": true,
+          "response_time_seconds": 41
+        },
+        {
+          "knowledge_id": "demo_fill",
+          "subject": "Demo",
+          "topic": "Fill in the Blank",
+          "type": "fill_blank",
+          "prompt": "World War II ended in _____.",
+          "correct_answer": "1945",
+          "user_answer": "1945",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "demo_choice",
+          "subject": "Demo",
+          "topic": "Multiple Choice",
+          "type": "single_choice",
+          "prompt": "Which planet is the largest in our Solar System?",
+          "correct_answer": "Jupiter",
+          "user_answer": "Jupiter",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "demo_flash",
+          "subject": "Demo",
+          "topic": "Flashcard",
+          "type": "flashcard",
+          "prompt": "Which organelle is often called the powerhouse of the cell?",
+          "correct_answer": "Mitochondrion",
+          "user_answer": "self-marked: knew",
+          "correct": true,
+          "response_time_seconds": 61
+        },
+        {
+          "knowledge_id": "item_1791060760326_0",
+          "subject": "QA",
+          "topic": "Import",
+          "type": "short_answer",
+          "prompt": "What does <b>bold</b> mean?",
+          "correct_answer": "Bold text",
+          "user_answer": "bold",
+          "correct": false,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "item_1791092515600_0",
+          "subject": "Layout QA",
+          "topic": "True/False",
+          "type": "true_false",
+          "prompt": "Two plus two equals four.",
+          "correct_answer": "True",
+          "user_answer": "True",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "item_1791092515600_1",
+          "subject": "Layout QA",
+          "topic": "Multi-select",
+          "type": "multi_select",
+          "prompt": "Which of these numbers are prime? Select all that apply.",
+          "correct_answer": "2; 3",
+          "user_answer": "2; 3",
+          "selected_answers": [
+            "2",
+            "3"
+          ],
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "item_1791092515600_2",
+          "subject": "Layout QA",
+          "topic": "Numeric",
+          "type": "numeric",
+          "prompt": "Enter 9.81. Answers within 0.05 are accepted.",
+          "correct_answer": "9.81",
+          "user_answer": "9.83",
+          "correct": true,
+          "response_time_seconds": 1
+        }
+      ]
+    },
+    {
+      "id": "report_1791092587693",
+      "mode": "all",
+      "date": "2026-10-04T05:43:07.693Z",
+      "duration_seconds": 62,
+      "total": 8,
+      "correct": 7,
+      "accuracy": 88,
+      "questions": [
+        {
+          "knowledge_id": "demo_short",
+          "subject": "Demo",
+          "topic": "Type Answer",
+          "type": "short_answer",
+          "prompt": "What is the capital of Japan?",
+          "correct_answer": "Tokyo",
+          "user_answer": "Tokyo",
+          "correct": true,
+          "response_time_seconds": 12
+        },
+        {
+          "knowledge_id": "demo_fill",
+          "subject": "Demo",
+          "topic": "Fill in the Blank",
+          "type": "fill_blank",
+          "prompt": "World War II ended in _____.",
+          "correct_answer": "1945",
+          "user_answer": "1945",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "demo_choice",
+          "subject": "Demo",
+          "topic": "Multiple Choice",
+          "type": "single_choice",
+          "prompt": "Which planet is the largest in our Solar System?",
+          "correct_answer": "Jupiter",
+          "user_answer": "Jupiter",
+          "correct": true,
+          "response_time_seconds": 19
+        },
+        {
+          "knowledge_id": "demo_flash",
+          "subject": "Demo",
+          "topic": "Flashcard",
+          "type": "flashcard",
+          "prompt": "Which organelle is often called the powerhouse of the cell?",
+          "correct_answer": "Mitochondrion",
+          "user_answer": "self-marked: knew",
+          "correct": true,
+          "response_time_seconds": 2
+        },
+        {
+          "knowledge_id": "item_1791060760326_0",
+          "subject": "QA",
+          "topic": "Import",
+          "type": "short_answer",
+          "prompt": "What does <b>bold</b> mean?",
+          "correct_answer": "Bold text",
+          "user_answer": "bold",
+          "correct": false,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "item_1791092515600_0",
+          "subject": "Layout QA",
+          "topic": "True/False",
+          "type": "true_false",
+          "prompt": "Two plus two equals four.",
+          "correct_answer": "True",
+          "user_answer": "True",
+          "correct": true,
+          "response_time_seconds": 10
+        },
+        {
+          "knowledge_id": "item_1791092515600_1",
+          "subject": "Layout QA",
+          "topic": "Multi-select",
+          "type": "multi_select",
+          "prompt": "Which of these numbers are prime? Select all that apply.",
+          "correct_answer": "2; 3",
+          "user_answer": "2; 3",
+          "selected_answers": [
+            "2",
+            "3"
+          ],
+          "correct": true,
+          "response_time_seconds": 16
+        },
+        {
+          "knowledge_id": "item_1791092515600_2",
+          "subject": "Layout QA",
+          "topic": "Numeric",
+          "type": "numeric",
+          "prompt": "Enter 9.81. Answers within 0.05 are accepted.",
+          "correct_answer": "9.81",
+          "user_answer": "9.83",
+          "correct": true,
+          "response_time_seconds": 1
+        }
+      ]
+    },
+    {
+      "id": "report_1791085131129",
+      "mode": "retry_mistakes",
+      "source_report_id": "report_1791085073129",
+      "date": "2026-10-04T03:38:51.129Z",
+      "duration_seconds": 24,
+      "total": 5,
+      "correct": 5,
+      "accuracy": 100,
+      "questions": [
+        {
+          "knowledge_id": "demo_short",
+          "subject": "Demo",
+          "topic": "Type Answer",
+          "type": "short_answer",
+          "prompt": "What is the capital of Japan?",
+          "correct_answer": "Tokyo",
+          "user_answer": "Tokyo",
+          "correct": true,
+          "response_time_seconds": 20
+        },
+        {
+          "knowledge_id": "demo_flash",
+          "subject": "Demo",
+          "topic": "Flashcard",
+          "type": "flashcard",
+          "prompt": "Which organelle is often called the powerhouse of the cell?",
+          "correct_answer": "Mitochondrion",
+          "user_answer": "self-marked: knew",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "item_1791085024286_0",
+          "subject": "Stage 1 QA",
+          "topic": "Imported",
+          "type": "true_false",
+          "prompt": "QA: Water freezes at 0°C.",
+          "correct_answer": "True",
+          "user_answer": "True",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "item_1791085024286_1",
+          "subject": "Stage 1 QA",
+          "topic": "Imported",
+          "type": "multi_select",
+          "prompt": "QA: Select prime numbers.",
+          "correct_answer": "2; 3",
+          "user_answer": "3; 2",
+          "selected_answers": [
+            "3",
+            "2"
+          ],
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "item_1791085024286_2",
+          "subject": "Stage 1 QA",
+          "topic": "Imported",
+          "type": "numeric",
+          "prompt": "QA: Enter negative pi to two decimals.",
+          "correct_answer": "-3.14",
+          "user_answer": "-3.13",
+          "correct": true,
+          "response_time_seconds": 1
+        }
+      ]
+    },
+    {
+      "id": "report_1791085073129",
+      "mode": "all",
+      "date": "2026-10-04T03:37:53.129Z",
+      "duration_seconds": 18,
+      "total": 8,
+      "correct": 3,
+      "accuracy": 38,
+      "questions": [
+        {
+          "knowledge_id": "demo_short",
+          "subject": "Demo",
+          "topic": "Type Answer",
+          "type": "short_answer",
+          "prompt": "What is the capital of Japan?",
+          "correct_answer": "Tokyo",
+          "user_answer": "Osaka",
+          "correct": false,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "demo_fill",
+          "subject": "Demo",
+          "topic": "Fill in the Blank",
+          "type": "fill_blank",
+          "prompt": "World War II ended in _____.",
+          "correct_answer": "1945",
+          "user_answer": "1945",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "demo_choice",
+          "subject": "Demo",
+          "topic": "Multiple Choice",
+          "type": "single_choice",
+          "prompt": "Which planet is the largest in our Solar System?",
+          "correct_answer": "Jupiter",
+          "user_answer": "Jupiter",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "demo_flash",
+          "subject": "Demo",
+          "topic": "Flashcard",
+          "type": "flashcard",
+          "prompt": "Which organelle is often called the powerhouse of the cell?",
+          "correct_answer": "Mitochondrion",
+          "user_answer": "self-marked: did not know",
+          "correct": false,
+          "response_time_seconds": 11
+        },
+        {
+          "knowledge_id": "item_1791060760326_0",
+          "subject": "QA",
+          "topic": "Import",
+          "type": "short_answer",
+          "prompt": "What does <b>bold</b> mean?",
+          "correct_answer": "Bold text",
+          "user_answer": "Bold text",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "item_1791085024286_0",
+          "subject": "Stage 1 QA",
+          "topic": "Imported",
+          "type": "true_false",
+          "prompt": "QA: Water freezes at 0°C.",
+          "correct_answer": "True",
+          "user_answer": "False",
+          "correct": false,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "item_1791085024286_1",
+          "subject": "Stage 1 QA",
+          "topic": "Imported",
+          "type": "multi_select",
+          "prompt": "QA: Select prime numbers.",
+          "correct_answer": "2; 3",
+          "user_answer": "2",
+          "selected_answers": [
+            "2"
+          ],
+          "correct": false,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "item_1791085024286_2",
+          "subject": "Stage 1 QA",
+          "topic": "Imported",
+          "type": "numeric",
+          "prompt": "QA: Enter negative pi to two decimals.",
+          "correct_answer": "-3.14",
+          "user_answer": "3.14",
+          "correct": false,
+          "response_time_seconds": 1
+        }
+      ]
+    },
+    {
+      "id": "report_1791063629415",
+      "date": "2026-10-03T21:40:29.415Z",
+      "duration_seconds": 107,
+      "total": 5,
+      "correct": 5,
+      "accuracy": 100,
+      "questions": [
+        {
+          "knowledge_id": "demo_short",
+          "subject": "Demo",
+          "topic": "Type Answer",
+          "type": "short_answer",
+          "prompt": "What is the capital of Japan?",
+          "correct_answer": "Tokyo",
+          "user_answer": "Tokyo",
+          "correct": true,
+          "response_time_seconds": 6
+        },
+        {
+          "knowledge_id": "demo_fill",
+          "subject": "Demo",
+          "topic": "Fill in the Blank",
+          "type": "fill_blank",
+          "prompt": "World War II ended in _____.",
+          "correct_answer": "1945",
+          "user_answer": "1945",
+          "correct": true,
+          "response_time_seconds": 19
+        },
+        {
+          "knowledge_id": "demo_choice",
+          "subject": "Demo",
+          "topic": "Multiple Choice",
+          "type": "single_choice",
+          "prompt": "Which planet is the largest in our Solar System?",
+          "correct_answer": "Jupiter",
+          "user_answer": "Jupiter",
+          "correct": true,
+          "response_time_seconds": 32
+        },
+        {
+          "knowledge_id": "demo_flash",
+          "subject": "Demo",
+          "topic": "Flashcard",
+          "type": "flashcard",
+          "prompt": "Which organelle is often called the powerhouse of the cell?",
+          "correct_answer": "Mitochondrion",
+          "user_answer": "self-marked: knew",
+          "correct": true,
+          "response_time_seconds": 49
+        },
+        {
+          "knowledge_id": "item_1791060760326_0",
+          "subject": "QA",
+          "topic": "Import",
+          "type": "short_answer",
+          "prompt": "What does <b>bold</b> mean?",
+          "correct_answer": "Bold text",
+          "user_answer": "Bold text",
+          "correct": true,
+          "response_time_seconds": 1
+        }
+      ]
+    },
+    {
+      "id": "report_1791061751422",
+      "date": "2026-10-03T21:09:11.422Z",
+      "duration_seconds": 5,
+      "total": 5,
+      "correct": 5,
+      "accuracy": 100,
+      "questions": [
+        {
+          "knowledge_id": "demo_short",
+          "subject": "Demo",
+          "topic": "Type Answer",
+          "type": "short_answer",
+          "prompt": "What is the capital of Japan?",
+          "correct_answer": "Tokyo",
+          "user_answer": "Tokyo",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "demo_fill",
+          "subject": "Demo",
+          "topic": "Fill in the Blank",
+          "type": "fill_blank",
+          "prompt": "World War II ended in _____.",
+          "correct_answer": "1945",
+          "user_answer": "1945",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "demo_choice",
+          "subject": "Demo",
+          "topic": "Multiple Choice",
+          "type": "single_choice",
+          "prompt": "Which planet is the largest in our Solar System?",
+          "correct_answer": "Jupiter",
+          "user_answer": "Jupiter",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "demo_flash",
+          "subject": "Demo",
+          "topic": "Flashcard",
+          "type": "flashcard",
+          "prompt": "Which organelle is often called the powerhouse of the cell?",
+          "correct_answer": "Mitochondrion",
+          "user_answer": "self-marked: knew",
+          "correct": true,
+          "response_time_seconds": 1
+        },
+        {
+          "knowledge_id": "item_1791060760326_0",
+          "subject": "QA",
+          "topic": "Import",
+          "type": "short_answer",
+          "prompt": "What does <b>bold</b> mean?",
+          "correct_answer": "Bold text",
+          "user_answer": "Bold text",
+          "correct": true,
+          "response_time_seconds": 1
+        }
+      ]
+    },
+    {
+      "id": "report_1791060711107",
+      "date": "2026-10-03T20:51:51.107Z",
+      "duration_seconds": 28,
+      "total": 4,
+      "correct": 4,
+      "accuracy": 100,
+      "questions": [
+        {
+          "knowledge_id": "demo_short",
+          "subject": "Demo",
+          "topic": "Type Answer",
+          "type": "short_answer",
+          "prompt": "What is the capital of Japan?",
+          "correct_answer": "Tokyo",
+          "user_answer": "Tokyo",
+          "correct": true,
+          "response_time_seconds": 5
+        },
+        {
+          "knowledge_id": "demo_fill",
+          "subject": "Demo",
+          "topic": "Fill in the Blank",
+          "type": "fill_blank",
+          "prompt": "World War II ended in _____.",
+          "correct_answer": "1945",
+          "user_answer": "1945",
+          "correct": true,
+          "response_time_seconds": 10
+        },
+        {
+          "knowledge_id": "demo_choice",
+          "subject": "Demo",
+          "topic": "Multiple Choice",
+          "type": "single_choice",
+          "prompt": "Which planet is the largest in our Solar System?",
+          "correct_answer": "Jupiter",
+          "user_answer": "Jupiter",
+          "correct": true,
+          "response_time_seconds": 4
+        },
+        {
+          "knowledge_id": "demo_flash",
+          "subject": "Demo",
+          "topic": "Flashcard",
+          "type": "flashcard",
+          "prompt": "Which organelle is often called the powerhouse of the cell?",
+          "correct_answer": "Mitochondrion",
+          "user_answer": "self-marked: knew",
+          "correct": true,
+          "response_time_seconds": 9
+        }
+      ]
+    }
+  ],
+  "quizCount": 7,
+  "streakDays": [
+    "2026-10-03",
+    "2026-10-04"
+  ],
+  "preferences": {
+    "theme": "light",
+    "voice": "am_michael",
+    "speed": 0.9,
+    "quiz": {
+      "count": 0,
+      "shuffle": false
+    }
+  }
+}

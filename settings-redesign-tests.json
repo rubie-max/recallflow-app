@@ -1,0 +1,33 @@
+{
+  "desktopWidth": 1000,
+  "narrowWidth": 304,
+  "noHorizontalOverflow": true,
+  "saveVoiceConfirmed": true,
+  "saveQuizConfirmed": true,
+  "audio": {
+    "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+    "voice": "af_bella",
+    "speed": 1,
+    "role": "preview",
+    "questionId": "voice-preview",
+    "text": "Welcome to RecallFlow. Let's review what you've learned.",
+    "backend": "webgpu",
+    "sampleRate": 24000,
+    "durationSeconds": 4.125,
+    "rms": 0.0746232988882567,
+    "peak": 0.6215147376060486,
+    "generationSeconds": 4.161399999976158,
+    "cacheHit": true,
+    "cacheSource": "IndexedDB",
+    "requestMilliseconds": 26.19999998807907,
+    "inferenceCount": 0,
+    "workerLoaded": false,
+    "playback": "Completed",
+    "testedAt": "2026-10-04T04:56:31.112Z",
+    "playingEvent": true,
+    "volume": 1,
+    "muted": false,
+    "playedSeconds": 4.125,
+    "endedEvent": true
+  }
+}

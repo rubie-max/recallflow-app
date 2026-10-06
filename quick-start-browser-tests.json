@@ -1,0 +1,9 @@
+{
+  "quizUrl": "http://127.0.0.1:5173/#/quiz",
+  "standaloneQuiz": true,
+  "firstQuestion": 1,
+  "advancedUrl": "http://127.0.0.1:5173/#/quiz-settings",
+  "shuffleDefault": "",
+  "cancelReturnsHome": true,
+  "questionsUrl": "http://127.0.0.1:5173/#/questions"
+}
